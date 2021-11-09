@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- NOTO FONT CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- ICON CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="assets/css/index.css" rel="stylesheet">
+    <title>MindReader</title>
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example notoFontB" tabindex="0">
+    
+    <nav class="navbar navbar-light bg-light sticky-top shadow-lg p-2" id="navbar" >
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#header">
+            <img src="assets/img/logo.svg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                <span style="padding-left: 4px;">MindReader</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">影片介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">系統特色</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">系統展示</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">系統貢獻</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="header"></div>
+    <div style="background: linear-gradient(17.48deg, #FFFFFF 20.28%, #FFEDB3 88.51%);">
+        <div class="container pb-3">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/headerPhone.png" width="100%">
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="fw-bold primaryBlue notoFontB" style='font-size: 3rem;'>Mind Reader<br>與你心譯相通</h1>
+                    <p class="secondBlue notoFontR fs-4">110年中原資管專題期末專案</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="scrollspyHeading1" class="spyLocationer"></div>
+        <div class="container py-5">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-12 col-md-8 rounded round1R" style="overflow: hidden;">
+                    <div class="ratio ratio-16x9 round1R">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wAPCSnAhhC8"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col py-3">
+                   <h2 class="notoFontB fw-bold fs-1"><span class="primaryBlue">關於</span>專案</h2>
+                   <button type="button" class="btn btn-primary bgPrimaryBlue mt-1">前往Youtube觀看</button>
+                </div>
+            </div>
+        </div>
+        <div id="scrollspyHeading2" class="spyLocationer"></div>
+        <div class="container systemSpecialDiv py-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/replaceKeybroad.png" width="100%">
+                </div>
+                <div class="col">
+                   <h2 class="notoFontB fw-bold fs-1"><span class="primaryBlue">修飾語句</span></h2>
+                   <p class="fs-5">設定對方角色定位並記錄彼此說話模式，透過系統轉換，提供建議的回話。也能透過分析訊息情境，提出修飾後的語句，讓你不必擔心說錯話而產生尷尬。</p>
+                </div>
+            </div>
+        </div>
+        <div class="spyLocationer"></div>
+        <div class="container systemSpecialDiv py-5">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/trendKeybroad.png" width="100%">
+                </div>
+                <div class="col">
+                   <h2 class="notoFontB fw-bold fs-1"><span class="primaryBlue">專屬話題推薦</span></h2>
+                   <p class="fs-5">記錄用戶之間過去聊天內容、找出雙方之間共鳴並結合當下時事，推薦相關聊天話題，並提供一句話，作為話題的開場白。</p>
+                </div>
+            </div>
+        </div>
+        <div class="container systemSpecialDiv py-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <img src="assets/img/lineBot.png" width="100%">
+                </div>
+                <div class="col">
+                   <h2 class="notoFontB fw-bold fs-1"><span class="primaryBlue">一鍵加入行事曆</span></h2>
+                   <p class="fs-5">點選聊天過程中安排好的行程，按下一鍵加入行事曆，系統將會和你手機中的行事曆做連接並自動輸入，以節省過去手動輸入的麻煩，並在適當時間通知。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="scrollspyHeading3" class="spyLocationer"></div>
+    <div style="background-color: #F2F2F2;" class="py-5">
+        <h2 class="fw-bold text-center pb-2 fw-bold">系統展示</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 pt-2">
+                    <img src="assets/img/showPhone.png" width="100%" class="round1R" style="overflow: hidden;">
+                    <h3 class="fw-bold notoFontB primaryBlue mt-3">Phone Prototype</h3>
+                    <button type="button" class="btn btn-outline-dark rounded-pill"><i class="fab fa-figma"></i><span class="ps-1">Figma</span></button>
+                </div>
+                <div class="col-md-6 col-12 pt-2">
+                    <img src="assets/img/showMvp.webp" width="100%" class="round1R" style="overflow: hidden;">
+                    <h3 class="fw-bold notoFontB primaryBlue mt-3">Website MVP</h3>
+                    <button type="button" class="btn btn-outline-dark rounded-pill"><i class="fab fa-github"></i><span class="ps-1">Github</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="scrollspyHeading4" class="spyLocationer"></div>
+    <div class="py-5">
+        <h2 class="fw-bold text-center pb-2 fw-bold" id="scrollspyHeading4">系統貢獻</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col bg-dark" style="min-height: 800px;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

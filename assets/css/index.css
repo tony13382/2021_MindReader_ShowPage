@@ -1,0 +1,32 @@
+.primaryBlue{
+    color: #335495;
+}
+.bgPrimaryBlue{
+    background-color: #335495;
+}
+
+.secondBlue{
+    color: #6780B1;
+}
+
+.notoFontB{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.notoFontR{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.round1R{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.spyLocationer{
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
+.systemSpecialDiv{
+    max-width: 1000px;
+}
